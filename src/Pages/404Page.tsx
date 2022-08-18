@@ -1,6 +1,6 @@
 import { Button } from "@mui/material"
 
-import { useNavigation } from "../hooks/useNavigation"
+import { useNavigation } from "../Hooks/useNavigation"
 
 const Page404 = () => {
   const [handleNavigation] = useNavigation()

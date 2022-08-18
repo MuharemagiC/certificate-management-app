@@ -17,10 +17,10 @@ import TableRow from '@mui/material/TableRow';
 import Radio from '@mui/material/Radio';
 
 import SupplierLookupDialogStyle from './SupplierLookupDialogStyle.module.css'
-import { usePaginate } from '../../hooks/usePaginate';
-import { useSupplierLookup } from '../../hooks/useSupplierLookup';
+import { usePaginate } from '../../Hooks/usePaginate';
+import { useSupplierLookup } from '../../Hooks/useSupplierLookup';
 import { supplierLookupColumns } from '../../Constants/globals';
-import { ISupplierLookupDialogProps } from '../../interfaces/ISupplierLookupDialogProps';
+import { ISupplierLookupDialogProps } from '../../Interfaces/ISupplierLookupDialogProps';
 
 const SupplierLookupDialog: FC<ISupplierLookupDialogProps> = ({ open, handleClose, handleChange }) => {
   const [page, rowsPerPage, handleChangePage, handleChangeRowsPerPage] = usePaginate()

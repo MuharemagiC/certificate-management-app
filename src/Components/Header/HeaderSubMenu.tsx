@@ -1,7 +1,7 @@
 import React from "react";
 
-import { IHeaderSubMenu } from "../../interfaces/IHeaderSubMenu";
-import { useShowSubnav } from "../../hooks/useShowSubnav";
+import { IHeaderSubMenu } from "../../Interfaces/IHeaderSubMenu";
+import { useShowSubnav } from "../../Hooks/useShowSubnav";
 import NavLink from "../NavLink";
 import SubNavList from "../SubNavList";
 

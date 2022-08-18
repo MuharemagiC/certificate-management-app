@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { NavLink as RouterNavLink } from "react-router-dom";
 
-import { INavLink } from "../../interfaces/INavLink";
+import { INavLink } from "../../Interfaces/INavLink";
 import NavLinkStyle from './NavLinkStyle.module.css'
 
 const NavLink: FC<INavLink> = ({ isSection, children, path, subNavs, showSubnav, className }) => {

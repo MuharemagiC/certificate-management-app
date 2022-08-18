@@ -1,4 +1,4 @@
-import { ITableData } from "../interfaces/ITableData";
+import { ITableData } from "../Interfaces/ITableData";
 
 export function createTableData(
   id: string,

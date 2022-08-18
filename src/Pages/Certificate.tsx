@@ -13,10 +13,10 @@ import { DesktopDatePicker } from '@mui/x-date-pickers/DesktopDatePicker';
 import { Button, CardActions, IconButton } from '@mui/material';
 import { useParams } from 'react-router-dom';
 
-import { useTableData } from '../hooks/useTableData';
+import { useTableData } from '../Hooks/useTableData';
 import { Certificates } from '../Constants/globals';
-import { useNavigation } from '../hooks/useNavigation';
-import { useDialog } from '../hooks/useDialog';
+import { useNavigation } from '../Hooks/useNavigation';
+import { useDialog } from '../Hooks/useDialog';
 import SupplierLookupDialog from '../Components/SupplierLookupDialog';
 
 const Certificate = () => {

@@ -2,7 +2,7 @@ import { FC } from 'react'
 
 import HeaderStyle from './HeaderStyle.module.css'
 import { HeaderSideBarData } from './HeaderSideBarData';
-import { IHeader } from '../../interfaces/IHeader';
+import { IHeader } from '../../Interfaces/IHeader';
 import NavList from '../NavList';
 
 const Header: FC<IHeader> = ({ children }) => {

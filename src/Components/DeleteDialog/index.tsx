@@ -4,9 +4,9 @@ import Dialog from '@mui/material/Dialog';
 import { IconButton, Button } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 
-import WarnningImg from '../../assets/images/Warnning.svg'
+import WarnningImg from '../../Assets/images/Warnning.svg'
 import DeleteDialogStyle from './DeleteDialogStyle.module.css'
-import { IDeleteDialogProps } from '../../interfaces/IDeleteDialogProps';
+import { IDeleteDialogProps } from '../../Interfaces/IDeleteDialogProps';
 
 const DeleteDialog: FC<IDeleteDialogProps> = ({ open, id, handleClose, deleteCertificate }) => {
   return (

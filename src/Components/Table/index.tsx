@@ -12,11 +12,11 @@ import { IconButton } from '@mui/material';
 import { v4 as uuidv4 } from 'uuid';
 
 import StyledTableCell from './StyledTableCell'
-import { usePaginate } from '../../hooks/usePaginate';
-import { useTableData } from '../../hooks/useTableData';
+import { usePaginate } from '../../Hooks/usePaginate';
+import { useTableData } from '../../Hooks/useTableData';
 import { columns } from '../../Constants/globals';
-import { useNavigation } from '../../hooks/useNavigation';
-import { useDialog } from '../../hooks/useDialog';
+import { useNavigation } from '../../Hooks/useNavigation';
+import { useDialog } from '../../Hooks/useDialog';
 import DeleteDialog from '../DeleteDialog';
 
 export default function CertificateTable() {

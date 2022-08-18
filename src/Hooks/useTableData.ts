@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import moment from 'moment';
 
 import { Certificates } from "../Constants/globals";
-import { loadFromLocalStorage, saveDataToLocalStorage } from "../utils/localStorage";
+import { loadFromLocalStorage, saveDataToLocalStorage } from "../Utils/localStorage";
 import { useNavigation } from "./useNavigation";
 
 export const useTableData = (id: string | undefined) => {

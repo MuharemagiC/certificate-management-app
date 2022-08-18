@@ -1,4 +1,4 @@
-import { IColumn } from '../interfaces/IColumn'
+import { IColumn } from '../Interfaces/IColumn'
 
 
 export const columns: readonly IColumn[] = [
