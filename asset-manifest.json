@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/certificate-management-app/static/css/main.32e9a7c0.css",
+    "main.js": "/certificate-management-app/static/js/main.07137a23.js",
+    "static/js/787.ec064913.chunk.js": "/certificate-management-app/static/js/787.ec064913.chunk.js",
+    "static/media/Warnning.svg": "/certificate-management-app/static/media/Warnning.b1152535dfc11f6c3fbbdcf12ba49a19.svg",
+    "index.html": "/certificate-management-app/index.html",
+    "main.32e9a7c0.css.map": "/certificate-management-app/static/css/main.32e9a7c0.css.map",
+    "main.07137a23.js.map": "/certificate-management-app/static/js/main.07137a23.js.map",
+    "787.ec064913.chunk.js.map": "/certificate-management-app/static/js/787.ec064913.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32e9a7c0.css",
+    "static/js/main.07137a23.js"
+  ]
+}
