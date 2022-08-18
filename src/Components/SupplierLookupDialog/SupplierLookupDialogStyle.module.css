@@ -1,0 +1,31 @@
+.Dialog-Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.Dialog-Content {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.Dialog-Text {
+  font-weight: bold;
+  margin-bottom: 10px;
+  background: #39393A;
+  color: #FDFFFC;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.Dialog-Actions {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.Dialog-Actions > button {
+  margin-right: 8px;
+}

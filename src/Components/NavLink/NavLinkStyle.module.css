@@ -1,0 +1,31 @@
+.Icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 30px;
+  padding: 10px 0px 10px 20px;
+  transition: 0.2s ease-in;
+  color: #FDFFFC;
+  text-decoration: none;
+}
+
+.Icons > span {
+  margin-left: 8px;
+}
+
+.Icons:hover, .SubMenu:hover {
+  border-left: 4px solid gray;
+  width: 100%;
+  cursor: pointer;
+}
+
+.Active {
+  border-left: 4px solid gray;
+}
+
+.SubMenu {
+  padding: 10px 0px 10px 40px;
+  transition: 0.2s ease-in;
+  color: #FDFFFC;
+  text-decoration: none;
+}
